@@ -13,13 +13,13 @@ import urllib2
 import sqlite3
 import os, os.path
 import sys
-import Image
+# import Image
 import ctypes
 from StringIO import StringIO
 import time
 import subprocess
 # import MySQLdb
-from shapely.geometry import Polygon,box
+# from shapely.geometry import Polygon,box
 from collections import namedtuple
 
 parser = argparse.ArgumentParser(description="""
